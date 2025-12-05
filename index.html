@@ -2,10 +2,30 @@
 <html lang="en">
 <head>
 <!-- add required and recommended <meta> tags -->
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Susan Davis">
+<meta name="description" content="Limitless Fitness Gym, where fitness meets community">
+<meta name="robots" content="noindex,nofollow">
+<title>Transform Your Life at Limitless Fitness</title>
+<form method="post" action="https://wp.zybooks.com/form-viewer.php"></form>
+
+	 <meta property=”og:title” content=”Limitless Fitness Gym” />
+	 <meta property="og:url" content="http://localhost:52330/index.html" />
+	 <meta property="og:type" content="website" />
+   <meta property="og:image" content="http://www.w3.org/2000/svg" />
+
+  <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="http://localhost:52330/index.html">
+	<meta name="twitter:title" content="Transform Your Life at Limitless Fitness">
+	<meta name="twitter:description" content="Limitless Fitness Gym, where fitness meets community">
+  <meta name="twitter:creator" content="Susan Davis">
+  <meta name="twitter:image" content="http://www.w3.org/2000/svg">
 
 </head>
 <body>
 <!-- add a skip link that skips to the main content -->
+ <a class="skip-to-content-link" href="#main">Skip to content</a>
 <!-- add correct heading levels -->
   <header>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#007BFF" stroke-linecap="round" stroke-linejoin="round" width="75" height="75" stroke-width="1.5">
@@ -17,32 +37,32 @@
       <path d="M18 8h2a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-2"></path>
       <path d="M22 12h-1"></path>
     </svg> 
-    Transform Your Life at Limitless Fitness
+    <h1>Transform Your Life at Limitless Fitness</h1>
     <p>Unleash your strength, embrace the challenge, and join a community dedicated to your fitness journey.</p>
     <a href="#">Join Now</a>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-    
-      src="images/facility.jpg"
-
+     <img srcset="images/dumbells.jpg, images/dumbells-320w.jpg 1.5x, images/dumbells-768w.jpg 2x"
+      srce="images/facility.jpg" alt="black and white image of workout room with large windows and various equipment">
+  
   </header>
   <nav>
-    Main Navigation
+    <h2>Main Navigation</h2>
     <ul>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Classes</a></li>
-      <li><a href="#">Personal Training</a></li>
-      <li><a href="#">Membership Options</a></li>
-      <li><a href="#">Testimonials</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#classes">Classes</a></li>
+      <li><a href="#training">Personal Training</a></li>
+      <li><a href="#membership">Membership Options</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
   <main>
-    <section>
-      About Us
+    <section id="about-us">
+      <h2>About Us</h2>
       <p>Welcome to Limitless Fitness, where fitness meets community. Our state-of-the-art facility is designed to inspire and support you at every stage of your journey. Whether you're a beginner or a seasoned athlete, our expert trainers and diverse classes provide the perfect environment to achieve your personal best.</p>
       <section>
-        What Sets Us Apart
+        <h3>What Sets Us Apart</h3>
         <ul>
           <li>Personalized Training: Customized workout plans tailored to your goals.</li>
           <li>Top-of-the-Line Equipment: The latest gear to ensure effective and safe workouts.</li>
@@ -51,8 +71,8 @@
         </ul>
       </section>
     </section>
-    <section>
-      Our Classes
+    <section id="classes">
+      <h2>Our Classes</h2>
       <p>Discover a wide variety of classes designed to challenge and energize you.</p>
       <ul>
         <li>HIIT & Cardio: Boost your endurance and burn calories.</li>
@@ -63,11 +83,12 @@
       </ul>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-        src="images/classes.jpg"
+         <img srcset="images/classes.jpg, images/classes-320w.jpg 1.5x, images/classes-768w.jpg 2x"
+         src="images/classes.jpg" alt="black and white image of two women and one man doing squats with barbell on their shoulders">
 
     </section>
-    <section>
-      Personal Training
+    <section id="training">
+      <h2>Personal Training</h2>
       <p>
         Take your fitness to the next level with our one-on-one training sessions. Our certified trainers work with you to create a customized plan that fits your lifestyle and targets your specific goals.
         Ready for a change?
@@ -75,11 +96,12 @@
       <a href="#">Book a Free Consultation today!</a>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-        src="images/dumbells.jpg"
+       <img srcset="images/dumbells.jpg, images/dumbells-320w.jpg 1.5x, images/dumbells-768w.jpg 2x"
+        srce="images/dumbells.jpg" alt="black and white image of racks of dumbells against a mirror">
 
     </section>
-    <section>
-      Membership Options
+    <section id="membership">
+      <h2>Membership Options</h2>
       <p>At Limitless Fitness, we offer flexible membership plans to suit your needs.</p>
       <ul>
         <li>Monthly Memberships: Perfect for those who want to try us out.</li>
@@ -87,24 +109,44 @@
         <li>Family & Group Plans: Get fit together and save more.</li>
       </ul>
       <section id="membership-form">
-        Join Limitless Fitness Today!
+        <h3>Join Limitless Fitness Today!</h3>
         <p>Fill out the form below to kickstart your fitness journey:</p>
 <!--add accessibility to the form-->
-        Full Name
-        Email Address
-        Phone Number
-        Membership Type
-          Select a Membership Option
-          Monthly Membership
-          Annual Membership
-          Family & Group Plans
-        Tell us about your fitness goals:
-        Submit
+      <form method="post" enctype="multipart/form-data" action="https://wp.zybooks.com/form-viewer.php">
+        <div>
+          <label>Full Name<span>*</span></label>
+          <input type="text" id="name" autocomplete="given-name, family-name" required>
+        </div>
+        <div>
+          <label>Email Address<span>*</span></label>
+          <input type="text" id="email" autocomplete="email" required>
+        </div>
+        <div>
+          <label>Phone Number<span>*</span></label>
+          <input type="text" id="phone" autocomplete="tel" required>
+        </div>
+        <div>
+          <h3>Membership Type</h3>
+        <select name="membership">
+          <option>Select a Membership Option</option>
+          <option>Monthly Membership</option>
+          <option>Annual Membership</option>
+          <option>Family & Group Plans</option>
+        </select>
+        </div>
+        <div>
+        <label for="fitness">Tell us about your fitness goals:</label>
+        <textarea id="fitness"></textarea>
+        </div>
+        <div>
+        <input type="submit" name="submit" value="Submit">
+        </div>
+      </form>
       </section>
     </section>
   </main>
-  <aside>
-    Testimonials
+  <aside id="testimonials">
+    <h2>Testimonials</h2>
     <q>
       Joining Limitless Fitness has completely transformed my approach to fitness. The supportive community and expert guidance have made all the difference! - Alex R.
     </q>
@@ -114,7 +156,7 @@
   </aside>
   <footer>
     <section>
-      Stay connected
+      <h2>Stay connected</h2>Stay connected
       <ul>
         <li>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#007BFF" width="35" height="35">
@@ -133,8 +175,8 @@
         </li>
       </ul>
     </section>
-    <section>
-      Contact Us
+    <section id="contact">
+      <h2>Contact Us</h2>
       <address>
         <p>1234 HIIT St. <br>
         Mesa, AZ 85222 <br>
